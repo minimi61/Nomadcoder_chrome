@@ -1,8 +1,8 @@
 
-const API_KEY = 'a3abd3c58f2a819d8569f36a3a6700c4';
+import { API_KEY } from "./keys";
 
 
-
+// process.env.API_KEY
 const onGeoOk = (position) => {
     const lat = position.coords.latitude;
     const lng = position.coords.longitude;
